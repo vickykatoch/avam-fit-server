@@ -1,0 +1,30 @@
+{
+  "name": "avam-fit-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "lodash": "^4.17.4",
+    "sqlite-json": "^1.0.1",
+    "sqlite3": "^3.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickykatoch/avam-fit-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickykatoch/avam-fit-server/issues"
+  },
+  "homepage": "https://github.com/vickykatoch/avam-fit-server#readme"
+}

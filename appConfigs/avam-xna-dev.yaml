@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+api:
+  userInfoServiceUrl : 'http://localhost:4300/api/users/'
+  userPreferenceServiceUrl : 'http://localhost:8000/api/userprefs'
+  workspaceServiceUrl : 'http://localhost:8000/api/workspace'
+general:
+  httpTimeout : 30
+...
